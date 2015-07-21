@@ -1,0 +1,34 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="colorControlHighlight">#ffffff</item>
+        <item name="colorControlActivated">#ffffff</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppThemeFullScreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorControlNormal">@color/button_normal</item>
+        <item name="colorControlHighlight">@color/button_pressed</item>
+        <item name="colorControlActivated">@color/button_pressed</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">#8DC63F</item>
+        <item name="background">@color/action_bar</item>
+        <item name="android:backgroundStacked">@color/action_bar</item>
+        <item name="backgroundStacked">@color/action_bar</item>
+        <item name="android:backgroundSplit">@color/action_bar</item>
+        <item name="backgroundSplit">@color/action_bar</item>
+    </style>
+
+</resources>

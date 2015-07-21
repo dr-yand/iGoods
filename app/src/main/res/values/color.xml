@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_pressed">#53B627</color>
+    <color name="button_normal">#D8DCE7</color>
+
+    <color name="action_bar">#8DC63F</color>
+    <color name="drawer_item">#393941</color>
+    <color name="drawer">#2C2D33</color>
+</resources>
