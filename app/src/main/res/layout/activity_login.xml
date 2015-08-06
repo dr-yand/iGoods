@@ -33,7 +33,8 @@
             android:textCursorDrawable="@null"
             android:background="@drawable/edittext_selector"
             android:id="@+id/login"
-            android:hint="Логин" />
+            android:hint="Логин"
+            android:text="testc" />
 
         <EditText
             android:layout_width="match_parent"
@@ -45,7 +46,8 @@
             android:id="@+id/password"
             android:hint="Пароль"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp" />
+            android:layout_marginBottom="10dp"
+            android:text="cwszbl24" />
 
         <Button
             android:layout_width="match_parent"

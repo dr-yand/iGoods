@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="client.igoods" >
+    package="client.igooods" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
@@ -21,7 +21,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".LoginActivity"
+            android:name="client.igooods.LoginActivity"
             android:theme="@style/AppThemeFullScreen"
             android:screenOrientation="portrait"
             android:label="@string/app_name" >
@@ -33,13 +33,13 @@
         </activity>
 
         <activity
-            android:name=".MainActivity"
+            android:name="client.igooods.MainActivity"
             android:screenOrientation="portrait"
             android:label="" >
         </activity>
 
         <activity
-            android:name=".GoodsListActivity"
+            android:name="client.igooods.GoodsListActivity"
             android:screenOrientation="portrait"
             android:label="Список" >
         </activity>
@@ -47,6 +47,10 @@
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyDIUF2fjt12_7hiNQko84CZABFAwRXN6hU" />
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="792067e1deab894a54ecc0841b883da81752f663" />
 
     </application>
 
